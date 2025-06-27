@@ -10,25 +10,27 @@ Hutly is a modern landing page for real estate agencies developed on **React + V
 
 ## 🚀 Technology Stack
 
-- ⚛️ **React** — UI library
-- ⚡ **Vite** — ultra-fast build and dev server
-- 🎨 **SCSS** — stylization
+- ⚛️ **React** — UI library for building interfaces
+- ⚡ **Vite** — blazing-fast development server and build tool
+- 🎨 **SCSS** — styling with variables, mixins, nesting, and partials
 
 ---
 
-## 📦 Installation
+## 📦 Getting Started
+
+To run this project locally:
 
 ```bash
-# Project creation
+# Create the project using Vite (if starting fresh)
 npm create vite@latest hutly
 
-# Go to the project directory
+# Navigate into the project folder
 cd hutly
 
-# Installing dependencies
+# Install dependencies
 npm install
 
-# Start the project in dev mode
+# Start development server
 npm run dev
 ```
 
@@ -38,37 +40,48 @@ npm run dev
 
 ```
 hutly/
-├── public/             # Static resources
+├── public/             # Static assets (e.g., logo, favicon)
 ├── src/
-│   ├── assets/         # Images, icons
-│   ├── components/     # React components
-│   ├── App.jsx         # Root component
-│   └── main.jsx        # Entry point
-├── index.html          # HTML template
-└── vite.config.js      # Vite configuration
+│   ├── assets/         # Images and icons
+│   ├── components/     # Reusable React components
+│   ├── styles/         # SCSS partials and global styles
+│   ├── App.jsx         # Root React component
+│   └── main.jsx        # App entry point
+├── index.html          # Base HTML template
+├── vite.config.js      # Vite configuration
+└── README.md           # Project documentation
+
 ```
 
 ---
 
 ## 🌐 Live Demo
 
-[View demo](https://ваш-домен.vercel.app)
+[View Live Demo](https://mrnko.github.io/hutly)
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-If you'd like to suggest an improvement, create an issue or pull request, you're always welcome!
+Contributions are welcome!  
+If you'd like to suggest improvements or report issues:
+
+1. Fork this repository
+2. Create your feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Create a pull request
 
 ---
 
 ## 📄 License
 
-This project is available under an MIT license.
+This project is licensed under the **MIT License**.  
+See the [`LICENSE`](./LICENSE) file for details.
 
 ---
 
-## 🧑‍💻 Автор
+## 🧑‍💻 Author
 
 **Oleksii Myronenko**
-[LinkedIn](https://linkedin.com/in/oleksii-myronenko) | [GitHub](https://github.com/mrnko) | [Portfolio](https://mrnko.com)
+[🌐 Website](https://mrnko.com) · [💼 LinkedIn](https://linkedin.com/in/oleksii-myronenko) · [🐙 GitHub](https://github.com/mrnko)

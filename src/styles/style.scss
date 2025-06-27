@@ -1,3 +1,12 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --white-gray: #F7F8F8;
+  --dark-blue: #050F27;
+  --bg: var(--white);
+  --text: var(--dark-blue);
+}
+
 @font-face {
   font-family: 'Satoshi';
   src: url('/fonts/Satoshi/Satoshi-Light.woff2');
@@ -32,4 +41,6 @@
 
 body {
   font-family: 'Satoshi', sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
 }
